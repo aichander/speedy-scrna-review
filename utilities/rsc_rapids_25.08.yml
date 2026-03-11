@@ -1,0 +1,23 @@
+name: /home/workspace/environment/scrapids
+channels:
+ - rapidsai
+ - nvidia
+ - conda-forge
+ - bioconda
+dependencies:
+ - rapids=25.08
+ - python=3.13
+ - cuda-version=12.9
+ - cudnn
+ - cutensor
+ - cusparselt
+ - jupyterlab
+ - pip
+ - pip:
+    - decoupler
+    - omnipath
+    - gdown
+    - wget
+    - rapids-singlecell
+
+prefix: /home/workspace/environment/scrapids
