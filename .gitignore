@@ -208,3 +208,4 @@ __marimo__/
 *.zarr
 *.zarr
 **/*.zarr
+*.h5ad
